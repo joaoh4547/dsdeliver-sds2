@@ -1,4 +1,4 @@
-import {ReactComponent as Logo} from './Logo.svg'
+
 
 function StepsHeader(){
     return (
