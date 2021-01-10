@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import StepsHeader from "./StepsHeader";
 import ProductsList from "./ProductsList";
 import { useEffect, useState } from "react";
-import { OrderLocationData, Product } from "./Types";
+import { OrderLocationData, Product } from "./types";
 import { fetchProducts, saveOrder } from "../api";
 import OrderLocation from "./OrderLocation";
 import OrderSummary from "./OrderSummary";
