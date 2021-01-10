@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import AsyscSelect from 'react-select/async';
-import { types } from "util";
 import { fetchLocalMapBox } from "../api";
 import { OrderLocationData } from "./Types";
 
