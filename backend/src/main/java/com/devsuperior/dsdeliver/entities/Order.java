@@ -92,10 +92,20 @@ public class Order implements Serializable {
 	public void setStatus(OrderStatus status) {
 		this.status = status;
 	}
+	
+	public Double getTotal() {
+		Double total = 0.00;
+		for(Product p : products) {
+			total += p.getPrice();
+		}
+		return total;
+	}
 
+	
 	public Set<Product> getProducts() {
 		return products;
 	}
+	
 
 	@Override
 	public int hashCode() {
